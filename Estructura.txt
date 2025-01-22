@@ -1,0 +1,19 @@
+api_architecture/
+├── auth/
+│   ├── auth_handler.py   # Gestión de JWT y roles
+│   └── auth_bearer.py    # Middleware de autorización
+├── core/
+│   ├── config.py         # Configuración global
+│   └── database.py       # Conexión a MongoDB
+├── models/
+│   ├── base.py           # Modelo base genérico
+│   └── users.py          # Modelo para usuarios
+├── routers/
+│   ├── users.py          # Endpoints para usuarios
+│   ├── admin.py          # Endpoints administrativos
+│   └── general.py        # Endpoints genéricos
+├── utils/
+│   ├── validators.py     # Validaciones específicas
+│   └── helpers.py        # Funciones auxiliares
+├── main.py               # Punto de entrada de la API
+└── requirements.txt      # Dependencias del proyecto

@@ -1,0 +1,22 @@
+# Ignorar entornos virtuales
+venv/
+env/
+
+# Archivos de configuración sensibles
+.env
+
+# Archivos de compilación de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos de logs y dumps
+*.log
+*.sqlite3
+
+# Archivos y carpetas de IDEs
+.idea/
+.vscode/
+
+# Dependencias
+*.egg-info/
