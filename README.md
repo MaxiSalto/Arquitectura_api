@@ -12,8 +12,6 @@
 ## 🛠️ Instalación
 
 1. Clona este repositorio:
-      git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
 
 2. Crea un entorno virtual
     python -m venv venv
